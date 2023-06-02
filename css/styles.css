@@ -114,7 +114,11 @@ position: relative;
     position: relative;
 }
 
-.line {position: relative;}
+.line {position: relative;
+color: var(--ocean-color)}
+.header-list-menu.line {
+    color: var(--ocean-color);
+}
 
 .line::after {
     content: "";
